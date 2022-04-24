@@ -61,7 +61,7 @@ function createRequest(url, data, method) {
   .then((json) => {
     let endTime = new Date().getTime()
     console.log(url + '    =====TIME:::', (endTime - curTime)/1000 + ' s')
-    //console.log('body', json)
+    console.log('body', json)
   })
   .catch((err) => {
     let endTime = new Date().getTime()
